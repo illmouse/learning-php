@@ -26,11 +26,8 @@
 
   $hours = date('H');
   $minutes = date('m');
-  echo date('H') . ' ';
-  echo date('m') . ' ';
-  echo date('s') . ' ';
 
-  // echo $hours . ' ' . getNumEnding($hours, array('час', 'часа', 'часов')) . ' '.
-  //   $minutes . ' ' . getNumEnding($minutes, array('минута', 'минуты', 'минут'));
+  echo $hours . ' ' . getNumEnding($hours, array('час', 'часа', 'часов')) . ' '.
+    $minutes . ' ' . getNumEnding($minutes, array('минута', 'минуты', 'минут'));
 
 ?>
